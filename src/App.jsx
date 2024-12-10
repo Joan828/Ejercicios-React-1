@@ -7,20 +7,20 @@ function App() {
   const dishes = [
     {
       id:1,
-      name:'plato 1',
-      description:'Este es el plato 1',
+      name:'Plato 1',
+      description:'Arroz con menestra, guatita y encebollado',
       price:10
     },
     {
       id:2,
-      name:'plato 2',
-      description:'Este es el plato 2',
+      name:'Plato 2',
+      description:'Salmón a la plancha con arroz y espárragos',
       price:20
     },
     {
       id:3,
-      name:'plato 3',
-      description:'Este es el plato 3',
+      name:'Plato 3',
+      description:'Solomillo de cordero al horno con costra verde y chalotas',
       price:15
     }
   ]

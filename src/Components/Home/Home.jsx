@@ -11,6 +11,7 @@ const Home = (props) => {
             <p className="nomPlato">{dish.name}</p>
             <p className="descPlato">{dish.description}</p>
       </div>
+      
       )
       })}
     </div>
