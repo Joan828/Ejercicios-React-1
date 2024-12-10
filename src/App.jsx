@@ -1,4 +1,6 @@
 import './App.css'
+import Header from './Components/Header/Header'
+import Home from './Components/Home/Home'
 import Persona from './Components/Persona/Persona'
 
 function App() {
@@ -25,11 +27,13 @@ function App() {
 
   return (
 
-      <div>
-        <Persona name="Joan" surname="Martínez" age={23}/>
-        <Persona name="Jose" surname="Vega" age={65}/>
-        <Persona name="Alberto" surname="Darditos" age={25}/>
-      </div>
+    <div>
+    <Header/>
+    <Home dishes={dishes}/>
+    <Persona name="Joan" surname="Martínez" age={23}/>
+    <Persona name="Jose" surname="Vega" age={65}/>
+    <Persona name="Alberto" surname="Darditos" age={25}/>
+  </div>
 
   )
 }

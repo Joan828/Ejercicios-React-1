@@ -1,10 +1,15 @@
 * {
-    margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
   }
-.infoPersona{
-    margin: 3% 0;
+.plato{
+    margin: 8% 0;
+}
+.nomPlato{
+    text-align: left;
+}
+.descPlato{
+    margin: 5% 0;
     text-align: left;
 }
